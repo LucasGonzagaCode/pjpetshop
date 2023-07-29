@@ -1,4 +1,27 @@
-#img-menu{
-    width: 50;
+#img-logo{
+    width: 70px;
     height: 70px;
+}
+
+#img-menu{
+    width: 100px;
+    height: 40px;
+}
+
+#carouselExampleCaptions{
+    padding: 50px;
+    width: 100%;
+    
+}
+
+#config-slide{
+    border-radius: 20px;
+}
+
+#card-config{
+    margin: 20px;
+}
+.footer{
+    background-color: rgb(7, 211, 211);
+    display: flex;
 }
