@@ -12,23 +12,26 @@
     <header>
         <!-- MENU -->
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #E9C46A;">
-            <a href="index.html" class="navbar-brand"> <img id="img-logo" src="img/emojione_dog-face.png" alt=""> </a>
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#hamburger" aria-controls="navbarSupportContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <a class="navbar-brand" href="index.html"><img id="img-logo" src="img/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudo_menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
             </button>
-
-            <div class="collapse navbar-collapse" id="hamburger">
-                <ul class="navbar-nav mt-auto">
-                    <li class="nav item active">
-                        <a href="servicos.html" class="nav-link"> <img id="img-menu" src="img/home.png" alt=""> <span class="sr-only">(current)</span></a>
-                    </li>
-                <ul class="navbar-nav mt-auto">
-                    <li class="nav item active">
-                        <a href="servicos.html" class="nav-link"> <img id="img-menu" src="img/servicos.png" alt=""> <span class="sr-only">(current)</span></a>
-                    </li>
-                </ul>
+          
+            <div class="collapse navbar-collapse" id="conteudo_menu">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html"> <img src="img/home.png" alt=""> HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="servicos.html"> <img src="img/servicos.png" alt=""> SERVIÇOS </a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
             </div>
-        </nav>
+          </nav>
     </header>
     <main>
         <!-- CARROSSEL -->
@@ -40,119 +43,144 @@
             </ol>
             <div id="config-slide" class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="img/img-1.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Second slide label</h5>
-                      <p>Some representative placeholder content for the second slide.</p>
-                    </div>
+                    <img src="img/img-1.jpg" class="d-block w-100" alt="..." style="height: 600px;">
                   </div>
                 <div class="carousel-item">
-                    <img src="img/img-2.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Second slide label</h5>
-                      <p>Some representative placeholder content for the second slide.</p>
-                    </div>
+                    <img src="img/img-2.jpg" class="d-block w-100" alt="..." style="height: 600px;">
                   </div>
                 <div class="carousel-item">
-                    <img src="img/img-3.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Second slide label</h5>
-                      <p>Some representative placeholder content for the second slide.</p>
-                    </div>
+                    <img src="img/img-3.jpg" class="d-block w-100" alt="..." style="height: 600px;">
                   </div>
-            </div>
-            <button type="button" class="carousel-control-prev" data-target="#carouselExampleCaptions" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="st-only">Previous</span>
-            </button>
-            <button type="button" class="carousel-control-next" data-target="#carouselExampleCaptions" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="st-only">Next</span>
-            </button>
+            </div> 
         </div>
         <!-- CARDS-DOS MAIS VENDIDOS -->
+        <h1>Mais Vendidos -</h1>
         <div id="card-config" class="card-deck">
             <div class="card">
-                <img class="card-img-top" src="" alt="">
+                <img class="card-img-top" src="img/prod-1.webp" alt="" style="margin-left: 70px; width: 300px; height: 200px;">
                 <div class="card-body">
-                    <h5 class="card-title">Título</h5>
-                    <p class="card-text">Descrição</p>
+                    <h5 class="card-title">Ração Golden Special para Cães Adultos Sabor Frango e Carne</h5>
+                    <p class="card-text">Descrição:</p>
+                    <ul>
+                        <li>Indicada para cães adultos</li>
+                        <li>Blend de proteínas, máxima satisfação para o paladar;</li>
+                        <li>Saúde e vitalidade, alimento de alta qualidade, rico em vitaminas e minerais;</li>
+                        <li>Redução do odor das fezes, seleção de ingredientes especiais que auxiliam na redução do odor das fezes;</li>
+                    </ul>
                 </div>
                 <div class="card-footer">
-                    <small class="text-muted">Ultima att</small>
+                    <button type="button">Compre</button>
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="..." alt="">
+                <img class="card-img-top" src="img/prod-2.webp" alt="" style="margin-left: 70px; width: 300px; height: 200px;">
                 <div class="card-body">
-                    <h5 class="card-title">Título</h5>
-                    <p class="card-text">Descrição</p>
+                    <h5 class="card-title">Bifinho Keldog para Cães Adultos Sabor Churrasco</h5>
+                    <p class="card-text">Descrição:</p>
+                    <ul>
+                        <li>Indicada para cães adultos</li>
+                        <li>Macio e saboroso;</li>
+                        <li>Petisco para todos os momentos;</li>
+                        <li>Feito com carnes selecionadas;</li>
+                    </ul>
                 </div>
                 <div class="card-footer">
-                    <small class="text-muted">Ultima att</small>
+                    <button type="button">Compre</button>
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="..." alt="">
+                <img class="card-img-top" src="img/prod-3.webp" alt="" style="margin-left: 70px; width: 300px; height: 200px;">
                 <div class="card-body">
-                    <h5 class="card-title">Título</h5>
-                    <p class="card-text">Descrição</p>
+                    <h5 class="card-title">Areia Higiênica Pipicat Multicat para Gatos - 12 kg</h5>
+                    <p class="card-text">Descrição:</p>
+                    <ul>
+                        <li>Indicada para gatos;</li>
+                        <li>Controle de odores superior com pipicat odor block;</li>
+                        <li>Fácil de limpar;</li>
+                        <li>Sem fragrância;</li>
+                    </ul>
                 </div>
                 <div class="card-footer">
-                    <small class="text-muted">Ultima att</small>
+                    <button type="button">Compre</button>
                 </div>
             </div>
         </div>
         <!-- CARDS DAS NOVIDADES -->
+        <h1>Novidades -</h1>
         <div id="card-config" class="card-deck">
-            <div class="card">
-                <img class="card-img-top" src="..." alt="">
+            <div id="card" class="card">
+                <img class="card-img-top" src="img/prod-4.webp" alt="" style="margin-left: 70px; width: 300px; height: 200px;">
                 <div class="card-body">
-                    <h5 class="card-title">Título</h5>
-                    <p class="card-text">Descrição</p>
+                    <h5 class="card-title">Tronco Decorativo para Répteis Mbreda
+                    </h5>
+                    <p class="card-text">Descrição:</p>
+                    <ul>
+                        <li>Indicado para terrários, aquaterrários, paludários, aranhas, répteis, cobra, anfíbios, serpentes, iguanas e animais de sangue frio; </li>
+                        <li>Ideal para contemplar os instintos dos répteis de deitar ou se esconder;</li>
+                        <li>Simula seu habitat natural, sem estresse e com sua atividade fisiológica em bom funcionamento;</li>
+                        <li>Pré limpos e tratados, esculpidos naturalmente pelo desgaste da natureza;</li>
+                    </ul>
                 </div>
                 <div class="card-footer">
-                    <small class="text-muted">Ultima att</small>
+                    <button type="button">Compre</button>
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="..." alt="">
+                <img class="card-img-top" src="img/prod-5.webp" alt="" style="margin-left: 70px; width: 300px; height: 200px;">
                 <div class="card-body">
-                    <h5 class="card-title">Título</h5>
-                    <p class="card-text">Descrição</p>
+                    <h5 class="card-title">Plataforma com Aquecedor e Filtro Hopar H-662 100w para Tartarugas</h5>
+                    <p class="card-text">Descrição:</p>
+                    <ul>
+                        <li>Indicada para aquários;</li>
+                        <li>Aquecedor com controle de temperatura;</li>
+                        <li>Este produto poderá ser utilizado em todos os tipos de aquários, sendo totalmente imerso em agua;</li>
+                        <li>Com filtro integrado 300 l/h;</li>
+                    </ul>
                 </div>
                 <div class="card-footer">
-                    <small class="text-muted">Ultima att</small>
+                    <button type="button">Compre</button>
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="..." alt="">
+                <img class="card-img-top" src="img/prod-6.webp" alt="" style="margin-left: 70px; width: 300px; height: 200px;">
                 <div class="card-body">
-                    <h5 class="card-title">Título</h5>
-                    <p class="card-text">Descrição</p>
+                    <h5 class="card-title">Acessório Para Gaiola Ferplast Rede Para Ferrets</h5>
+                    <p class="card-text">Descrição:</p>
+                    <ul>
+                        <li>Indicada para ferrets;</li>
+                        <li>É uma rede de relaxamento para seu pet descansar e se divertir,</li>
+                        <li>Equipada com correntes de metal que permitem ser fixadas no teto da gaiola.</li>
+                    </ul>
                 </div>
                 <div class="card-footer">
-                    <small class="text-muted">Ultima att</small>
+                    <button type="button">Compre</button>
                 </div>
             </div>
         </div>
     </main>
+    <!-- RODAPÉ -->
     <footer>
         <div class="footer">
+            <div class="txt-footer">
             <p>© 2023 todos os direitos reservados</p>
+        </div>
+            <div class="logo-footer">
             <figure>
-                <img src="img/logo.png" alt="" style="width: 200px; height: 80px;">
+                <img src="img/logo.png" alt="" style="width: 12rem;
+                height: 4rem;">
+            </figure>
+        </div>
+            <div class="icons">
+            <figure>
+                <img src="img/icon-1.png" alt="">
             </figure>
             <figure>
-                <img src="img/icon-1.png" alt="" style="width: 200px; height: 80px;">
+                <img src="img/icon-2.png" alt="">
             </figure>
             <figure>
-                <img src="img/icon-2.png" alt="" style="width: 200px; height: 80px;">
+                <img src="img/icon-3.png" alt="">
             </figure>
-            <figure>
-                <img src="img/icon-3.png" alt="" style="width: 200px; height: 80px;">
-            </figure>
-
+        </div>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

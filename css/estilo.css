@@ -1,27 +1,49 @@
+/* ESTILIZAÇÃO DO MENU */
 #img-logo{
-    width: 70px;
-    height: 70px;
+    width: 10rem;
+    height: 4rem;
 }
 
 #img-menu{
-    width: 100px;
-    height: 40px;
+    margin-left: 100px;
+    width: 3rem;
+    height: 3rem;
 }
 
+/* ESTILIZAÇÃO DA MAIN */
 #carouselExampleCaptions{
     padding: 50px;
-    width: 100%;
-    
+    width: 100%;   
 }
-
+.carousel-item{
+    height: 600px;
+}
 #config-slide{
-    border-radius: 20px;
+    border-radius: 20px; 
 }
-
 #card-config{
-    margin: 20px;
+    margin: 50px;
+    margin-top: 100px;
+}
+/* ESTILIZAÇÃO DO FOOTER */
+.txt-footer{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.logo-footer{
+    position: absolute;
+    left: 46%;
+    margin-top: 15px;
+}
+.icons{
+    display: flex;
+    position: absolute;
+    right: 20px;
+    margin-top: 20px;
 }
 .footer{
+    margin-top: 150px;
     background-color: rgb(7, 211, 211);
     display: flex;
+    height: 95px;
 }
