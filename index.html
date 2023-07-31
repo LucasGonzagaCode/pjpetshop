@@ -1,71 +1,79 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOME</title>
     <link rel="stylesheet" href="css/estilo.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 </head>
-<body style="background-color: #A2D2FF;">
+
+<body style="background-color: #e5e5e5;">
     <header>
         <!-- MENU -->
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #E9C46A;">
             <a class="navbar-brand" href="index.html"><img id="img-logo" src="img/logo.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudo_menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudo_menu"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-          
+
             <div class="collapse navbar-collapse" id="conteudo_menu">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html"> <img src="img/home.png" alt=""> HOME <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="servicos.html"> <img src="img/servicos.png" alt=""> SERVIÇOS </a>
-                </li>
-              </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html"> <img src="img/home.png" alt=""> HOME <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicos.html"> <img src="img/servicos.png" alt=""> SERVIÇOS </a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
             </div>
-          </nav>
+        </nav>
     </header>
     <main>
         <!-- CARROSSEL -->
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
-              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
             </ol>
             <div id="config-slide" class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="img/img-1.jpg" class="d-block w-100" alt="..." style="height: 600px;">
-                  </div>
+                    <img src="img/slide1.webp" class="d-block w-100" alt="..." style="height: 400px;">
+                </div>
                 <div class="carousel-item">
-                    <img src="img/img-2.jpg" class="d-block w-100" alt="..." style="height: 600px;">
-                  </div>
+                    <img src="img/slide2.webp" class="d-block w-100" alt="..." style="height: 400px;">
+                </div>
                 <div class="carousel-item">
-                    <img src="img/img-3.jpg" class="d-block w-100" alt="..." style="height: 600px;">
-                  </div>
-            </div> 
+                    <img src="img/slide3.png" class="d-block w-100" alt="..." style="height: 400px;">
+                </div>
+            </div>
+        </div>
+        <!-- CATEGORIAS -->
+        <h3>Categorias</h3>
+        <div class="categorias">
+            <h4 style="text-align: center; padding-top: 30px">AQUI FICARÃO AS CATEGORIAS</h4>
         </div>
         <!-- CARDS-DOS MAIS VENDIDOS -->
-        <h1>Mais Vendidos -</h1>
+        <h1>Mais Vendidos</h1>
         <div id="card-config" class="card-deck">
             <div class="card">
-                <img class="card-img-top" src="img/prod-1.webp" alt="" style="margin-left: 70px; width: 300px; height: 200px;">
+                <img class="card-img-top" id="img-card" src="img/prod-1.webp" alt="">
                 <div class="card-body">
                     <h5 class="card-title">Ração Golden Special para Cães Adultos Sabor Frango e Carne</h5>
                     <p class="card-text">Descrição:</p>
                     <ul>
                         <li>Indicada para cães adultos</li>
                         <li>Blend de proteínas, máxima satisfação para o paladar;</li>
-                        <li>Saúde e vitalidade, alimento de alta qualidade, rico em vitaminas e minerais;</li>
-                        <li>Redução do odor das fezes, seleção de ingredientes especiais que auxiliam na redução do odor das fezes;</li>
                     </ul>
                 </div>
                 <div class="card-footer">
@@ -73,7 +81,7 @@
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="img/prod-2.webp" alt="" style="margin-left: 70px; width: 300px; height: 200px;">
+                <img class="card-img-top" id="img-card" src="img/prod-2.webp" alt="">
                 <div class="card-body">
                     <h5 class="card-title">Bifinho Keldog para Cães Adultos Sabor Churrasco</h5>
                     <p class="card-text">Descrição:</p>
@@ -89,7 +97,7 @@
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="img/prod-3.webp" alt="" style="margin-left: 70px; width: 300px; height: 200px;">
+                <img class="card-img-top" id="img-card" src="img/prod-3.webp" alt="">
                 <div class="card-body">
                     <h5 class="card-title">Areia Higiênica Pipicat Multicat para Gatos - 12 kg</h5>
                     <p class="card-text">Descrição:</p>
@@ -106,50 +114,43 @@
             </div>
         </div>
         <!-- CARDS DAS NOVIDADES -->
-        <h1>Novidades -</h1>
+        <h1>Novidades</h1>
         <div id="card-config" class="card-deck">
-            <div id="card" class="card">
-                <img class="card-img-top" src="img/prod-4.webp" alt="" style="margin-left: 70px; width: 300px; height: 200px;">
+            <div class="card">
+                <img class="card-img-top" id="img-card" src="img/prod-4.webp" alt="">
                 <div class="card-body">
                     <h5 class="card-title">Tronco Decorativo para Répteis Mbreda
                     </h5>
                     <p class="card-text">Descrição:</p>
                     <ul>
-                        <li>Indicado para terrários, aquaterrários, paludários, aranhas, répteis, cobra, anfíbios, serpentes, iguanas e animais de sangue frio; </li>
-                        <li>Ideal para contemplar os instintos dos répteis de deitar ou se esconder;</li>
-                        <li>Simula seu habitat natural, sem estresse e com sua atividade fisiológica em bom funcionamento;</li>
-                        <li>Pré limpos e tratados, esculpidos naturalmente pelo desgaste da natureza;</li>
-                    </ul>
+                        <li>Indicado para terrários, aquaterrários, paludários, aranhas, répteis, cobra, anfíbios,
+                            serpentes, iguanas e animais de sangue frio; </li>
                 </div>
                 <div class="card-footer">
                     <button type="button">Compre</button>
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="img/prod-5.webp" alt="" style="margin-left: 70px; width: 300px; height: 200px;">
+                <img class="card-img-top" id="img-card" src="img/prod-5.webp" alt="">
                 <div class="card-body">
                     <h5 class="card-title">Plataforma com Aquecedor e Filtro Hopar H-662 100w para Tartarugas</h5>
                     <p class="card-text">Descrição:</p>
                     <ul>
                         <li>Indicada para aquários;</li>
                         <li>Aquecedor com controle de temperatura;</li>
-                        <li>Este produto poderá ser utilizado em todos os tipos de aquários, sendo totalmente imerso em agua;</li>
-                        <li>Com filtro integrado 300 l/h;</li>
-                    </ul>
                 </div>
                 <div class="card-footer">
                     <button type="button">Compre</button>
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="img/prod-6.webp" alt="" style="margin-left: 70px; width: 300px; height: 200px;">
+                <img class="card-img-top" id="img-card" src="img/prod-6.webp" alt="">
                 <div class="card-body">
                     <h5 class="card-title">Acessório Para Gaiola Ferplast Rede Para Ferrets</h5>
                     <p class="card-text">Descrição:</p>
                     <ul>
                         <li>Indicada para ferrets;</li>
                         <li>É uma rede de relaxamento para seu pet descansar e se divertir,</li>
-                        <li>Equipada com correntes de metal que permitem ser fixadas no teto da gaiola.</li>
                     </ul>
                 </div>
                 <div class="card-footer">
@@ -162,28 +163,33 @@
     <footer>
         <div class="footer">
             <div class="txt-footer">
-            <p>© 2023 todos os direitos reservados</p>
-        </div>
+                <p>© 2023 todos os direitos reservados</p>
+            </div>
             <div class="logo-footer">
-            <figure>
-                <img src="img/logo.png" alt="" style="width: 12rem;
+                <figure>
+                    <img src="img/logo.png" alt="" style="width: 12rem;
                 height: 4rem;">
-            </figure>
-        </div>
+                </figure>
+            </div>
             <div class="icons">
-            <figure>
-                <img src="img/icon-1.png" alt="">
-            </figure>
-            <figure>
-                <img src="img/icon-2.png" alt="">
-            </figure>
-            <figure>
-                <img src="img/icon-3.png" alt="">
-            </figure>
-        </div>
+                <figure>
+                    <img src="img/icon-1.png" alt="">
+                </figure>
+                <figure>
+                    <img src="img/icon-2.png" alt="">
+                </figure>
+                <figure>
+                    <img src="img/icon-3.png" alt="">
+                </figure>
+            </div>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

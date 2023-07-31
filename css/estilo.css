@@ -16,13 +16,31 @@
     width: 100%;   
 }
 .carousel-item{
-    height: 600px;
+    height: 400px;
 }
 #config-slide{
     border-radius: 20px; 
 }
+.categorias{
+    background-color: rgb(204, 121, 13);
+    border-radius: 10px;
+    margin-left: 28%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 800px;
+    height: 100px;
+}
+#img-card{
+    width: auto; 
+    height: 200px;
+}
+#card{
+    height: 500px;
+    margin-left: 200px;
+}
 #card-config{
-    margin: 50px;
+    width: 1000px;
+    margin-left: 400px;
     margin-top: 100px;
 }
 /* ESTILIZAÇÃO DO FOOTER */
@@ -43,7 +61,13 @@
 }
 .footer{
     margin-top: 150px;
-    background-color: rgb(7, 211, 211);
+    background-color: #E9C46A;
     display: flex;
     height: 95px;
+}
+h3{
+    text-align: center;
+}
+h1{
+    text-align: center;
 }
