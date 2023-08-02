@@ -4790,7 +4790,7 @@ input[type="button"].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: #000000;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -4915,7 +4915,7 @@ input[type="button"].btn-block {
 }
 
 .card-deck .card {
-  margin-bottom: 15px;
+  margin-bottom: 1px;
 }
 
 @media (min-width: 576px) {
@@ -4924,8 +4924,8 @@ input[type="button"].btn-block {
     display: flex;
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+    width: 70%;
+    height: auto;
   }
   .card-deck .card {
     -ms-flex: 1 0 0%;
@@ -4935,7 +4935,6 @@ input[type="button"].btn-block {
     margin-left: 15px;
   }
 }
-
 .card-group > .card {
   margin-bottom: 15px;
 }
