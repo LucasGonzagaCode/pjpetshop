@@ -39,6 +39,7 @@
     margin-top: 20px;
 }
 .footer{
+    width: auto;
     margin-top: 150px;
     background-color: #E9C46A;
     display: flex;
