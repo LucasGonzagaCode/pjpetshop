@@ -6,8 +6,8 @@
 
 #img-menu{
     margin-left: 100px;
-    width: 3rem;
-    height: 3rem;
+    width: auto;
+    height: auto;
 }
 
 /* ESTILIZAÇÃO DA MAIN */
@@ -21,19 +21,6 @@
 }
 #config-slide{
     border-radius: 20px; 
-}
-.categorias{
-    background-color: rgb(204, 121, 13);
-    border-radius: 10px;
-    margin-left: 0%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    width: auto;
-    height: auto;
-}
-#img-card{
-    width: auto; 
-    height: auto;
 }
 /* ESTILIZAÇÃO DO FOOTER */
 .txt-footer{
@@ -56,10 +43,4 @@
     background-color: #E9C46A;
     display: flex;
     height:  95px ;
-}
-h3{
-    text-align: center;
-}
-h1{
-    text-align: center;
 }
